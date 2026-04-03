@@ -130,6 +130,14 @@ function App() {
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="mt-12 pt-6 border-t border-slate-200 dark:border-white/10">
+        <div className="text-center text-sm text-slate-600 dark:text-slate-400 pb-6">
+          <p className="mb-1">Aryan Tiwari &middot; Sara Pollock</p>
+          <p>This work was funded by The National Science Foundation DMS-2045059 (CAREER)</p>
+        </div>
+      </footer>
     </div>
   );
 }
